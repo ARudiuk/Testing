@@ -10,7 +10,7 @@ var inputs = document.getElementsByTagName('input')
 ```
 
 ## Set all boxes to good
-*This will also automatically set student status to failure, so remember to change that*
+**This will also automatically set student status to failure, so remember to change that**
 ```javascript
 for (var i=0; i<inputs.length; i++)
     if (inputs[i].type == 'checkbox' && inputs[i].id.slice(0,2)=='nu')
@@ -19,7 +19,7 @@ for (var i=0; i<inputs.length; i++)
 ```
             
 ## Set all boxes to bad
-*This will also automatically set student status to poor, so remember to change that*
+**This will also automatically set student status to poor, so remember to change that**
 ```javascript
 for (var i=0; i<inputs.length; i++)
     if (inputs[i].type == 'checkbox' && inputs[i].id.slice(0,2)=='nu')
@@ -28,8 +28,8 @@ for (var i=0; i<inputs.length; i++)
 ```
 
 ## Clear all check boxes
+**This is incase you mess up and want to reset every checkbox to being empty**
 ```javascript
-*This is incase you mess up and want to reset every checkbox to being empty*
 for (var i=0; i<inputs.length; i++)
     if (inputs[i].type == 'checkbox' && inputs[i].id.slice(0,2)=='nu')
         inputs[i].checked = false;
