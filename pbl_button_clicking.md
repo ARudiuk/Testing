@@ -1,7 +1,7 @@
 # Clicking pbl buttons 
 I wrote some small scripts to quickly click all the buttons when you get students for the first time.
 This should save time by allowing you to quickly set all quality/frequency checkboxes to good/bad status.
-The intended browser is Chrome. Simply open the console (ctrl+shift+i and click the console tab)
+The intended browser is Chrome. Simply open the console (ctrl+shift+i and click the console tab) (for mac command+option+J)
 and copy paste the script for the action you want
 
 ## Grab input fields
