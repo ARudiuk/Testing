@@ -17,6 +17,15 @@ for (var i=0; i<inputs.length; i++)
         if(inputs[i].id.indexOf('A') != -1)
             inputs[i].checked = true;
 ```
+
+## Copypaste for top two for convenience
+```javascript
+var inputs = document.getElementsByTagName('input')
+for (var i=0; i<inputs.length; i++)
+    if (inputs[i].type == 'checkbox' && inputs[i].id.slice(0,2)=='nu')
+        if(inputs[i].id.indexOf('A') != -1)
+            inputs[i].checked = true;
+```
             
 ## Set all boxes to bad
 **This will also automatically set student status to poor, so remember to change that**
